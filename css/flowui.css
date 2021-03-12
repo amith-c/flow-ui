@@ -1,0 +1,31 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/*Button styles*/
+button.button {
+  padding: 10px 30px;
+  border-radius: 7px;
+  border: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+button.default {
+  background-color: #4949ff;
+  color: #f0f0f0;
+  border: 1px solid #4949ff;
+}
+
+button.default:hover {
+  background-color: #6a6aff;
+}
+
+button.default:active {
+  background-color: #3535ff;
+}
+
+button.button:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=flowui.css.map */
