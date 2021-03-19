@@ -10,22 +10,21 @@ button.button {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-button.default {
-  background-color: #4949ff;
-  color: #f0f0f0;
-  border: 1px solid #4949ff;
+button:focus {
+  outline: none;
 }
 
-button.default:hover {
+button.default-filled {
+  background-color: #4949ff;
+  color: #f0f0f0;
+}
+
+button.default-filled:hover {
   background-color: #6a6aff;
 }
 
-button.default:active {
+button.default-filled:active {
   background-color: #3535ff;
-}
-
-button.button:focus {
-  outline: none;
 }
 
 /*# sourceMappingURL=flowui.css.map */
